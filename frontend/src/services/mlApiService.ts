@@ -51,7 +51,7 @@ class MLApiService {
   private baseUrl: string;
 
   constructor() {
-    this.baseUrl = import.meta.env.VITE_API_URL || 'https://agricureb-production.up.railway.app';
+    this.baseUrl = import.meta.env.VITE_API_URL || 'https://agricure-backend-production.up.railway.app';
   }
 
   async getPrediction(input: FertilizerPredictionInput): Promise<FertilizerPredictionOutput> {
